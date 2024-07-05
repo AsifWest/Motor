@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Rider</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .gradient-overlay::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8));
+      z-index: 0;
+    }
+
+    .stylish-heading {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 2.5rem;
+      
+    }
+  </style>
+</head>
+
+<body class="bg-gray-800">
+
+  <!-- First Section -->
+  <section class="relative h-screen bg-cover bg-center gradient-overlay" style="background-image: url('2846444.jpg');">
+    <!-- Navbar -->
+    <nav class="absolute top-0 right-0 p-6 z-10">
+      <ul class="flex space-x-6 text-white text-lg font-bold">
+        <li class="hidden md:block"><a href="#aboutme" class="hover:text-gray-300">About Me</a></li>
+        <li class="hidden md:block"><a href="#go-extra-mile" class="hover:text-gray-300">Go Extra Mile</a></li>
+        <li class="hidden md:block"><a href="#for-business" class="hover:text-gray-300">For Business</a></li>
+        <li class="hidden md:block"><a href="#get-in-touch" class="hover:text-gray-300">Get In Touch</a></li>
+      </ul>
+    </nav>
+    <!-- Heading Left Side -->
+    <div class="absolute top-0 left-0 p-6 text-red-600 z-10">
+      <h1 class="stylish-heading">Urban Rider</h1>
+    </div>
+    <!-- Center Heading -->
+    <div class="flex items-center justify-center h-full text-center text-white z-10">
+      <h2 class="text-3xl mt-60 md:text-5xl font-bold">Free Fuel Giveaway Everyday<br>UrbanRider X Go Extra Mile</h2>
+    </div>
+
+  </section>
+
+  <section class="relative bg-gray-800 rounded-lg p-8" style="background-color: rgb(41, 41, 41);">
+    <!-- Curved design -->
+    <div class="absolute top-0 right-0 bg-gray-800 w-32 h-32 rounded-full" style="background-color: rgb(41, 41, 41);"></div>
+
+    <!-- Content -->
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <!-- Text Content -->
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h2 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">About Me</h2>
+        <h3 class="text-xl font-bold text-white mb-4">Welcome to My Journey!</h3>
+        <p class="mb-8 leading-relaxed text-gray-300">
+          Hey there! I’m UrbanRider, your automotive enthusiast dedicated to making every ride an adventure. Passionate about bikes, cars, and urban commuting, I explore streets, test vehicles, and share my experiences. Whether you're a commuter, traveler, or road thrill-seeker, you’re in the right place.
+        </p>
+        <div class="mt-4">
+          <h3 class="text-lg font-bold text-white mb-2">Who I Am</h3>
+          <p class="text-gray-300">
+            UrbanRider is more than a name – it's a lifestyle. Fascinated by how bikes and cars transform urban life.
+          </p>
+        </div>
+        <div class="mt-4">
+          <h3 class="text-lg font-bold text-white mb-2">My Mission</h3>
+          <p class="text-gray-300">
+            As UrbanRider, my mission is to enhance your riding experience and help you make the most out of every mile. Through my partnership with Go Extra Mile, I aim to turn your routine commutes into opportunities for earning rewards and discovering new adventures.
+          </p>
+        </div>
+      </div>
+      <!-- Image -->
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded-full w-full h-auto" alt="hero" src="https://images.prismic.io/riders-sharecom/9798ceb2-259d-48f4-a73d-64a0621818c3_COMPRESSED+1+Summer+On+The+Rivers.jpg?auto=compress,format">
+      </div>
+    </div>
+  </section>
+
+  <!-- New Section -->
+  <section class="relative bg-gray-800 rounded-lg p-8" style="background-color: rgb(41, 41, 41);">
+    <!-- Curved design -->
+    <div class="absolute top-0 right-0 bg-gray-800 w-32 h-32 rounded-full" style="background-color: rgb(41, 41, 41);"></div>
+
+    <!-- Content -->
+    <div class="container mx-auto py-12">
+      <h2 class="title-font sm:text-4xl text-3xl mb-12 font-bold text-white text-center">Go Extra Mile – The App That Rewards You</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <!-- Image -->
+        <div class="md:w-1/2 mb-8 md:mb-0 flex justify-center flex-col items-center">
+          <img class="object-cover object-center rounded-full w-3/4 md:w-1/2 h-auto" alt="Go Extra Mile" src="https://th.bing.com/th/id/OIP.Xdbd6eGTSYsdiwgms62HcQHaHa?rs=1&pid=ImgDetMain">
+          <!-- Button-sized Images -->
+          <div class="flex justify-center space-x-4 mt-6">
+            <img class="w-32 h-12 object-cover rounded" alt="Button 1" src="2.png">
+            <img class="w-32 h-12 object-cover rounded" alt="Button 2" src="3.png">
+          </div>
+        </div>
+        <!-- Text Content -->
+        <div class="md:w-1/2 md:pl-12 text-gray-300">
+          <p class="leading-relaxed mb-6">
+            Introducing Go Extra Mile, a revolutionary app for commuters, travelers and riders. Earn GEM Coins for every mile you travel and redeem exciting rewards. Track your journeys, join a community, and compete in challenges.
+          </p>
+          <h3 class="text-lg font-bold text-white mb-2">Why Go Extra Mile?</h3>
+          <ul class="list-disc list-inside">
+            <li class="mb-2"><strong class="text-white">Earn Rewards:</strong> Collect GEM Coins for every mile you travel.</li>
+            <li class="mb-2"><strong class="text-white">Track Your Journeys:</strong> Log your travel history and see your progress.</li>
+            <li class="mb-2"><strong class="text-white">Community Engagement:</strong> Connect with fellow travelers and participate in fun challenges.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Business Section -->
+  <section class="relative bg-gray-800 rounded-lg p-8" style="background-color: rgb(41, 41, 41);">
+    <!-- Curved design -->
+    <div class="absolute top-0 right-0 bg-gray-800 w-32 h-32 rounded-full" style="background-color: rgb(41, 41, 41);"></div>
+
+    <!-- Content -->
+    <div class="container mx-auto py-12">
+      <h2 class="title-font sm:text-4xl text-3xl mb-12 font-bold text-white text-center">For Business</h2>
+      <p class="leading-relaxed text-center text-gray-300 mb-6">Want to increase your sales? Get in touch.<br>Below are the ongoing collaborations with brands.</p>
+      <div class="flex justify-center space-x-4 mb-12">
+        <img class="w-32 h-12 object-cover rounded" alt="Button 1" src="10.png">
+        <img class="w-32 h-12 object-cover rounded" alt="Button 2" src="5 (2).png">
+        <img class="w-32 h-12 object-cover rounded" alt="Button 3" src="5.png">
+      </div>
+      <h2 class="title-font sm:text-4xl text-3xl mb-12 font-bold text-white text-center">Get in Touch</h2>
+      <section style="background-color: rgb(41, 41, 41);" class="py-16">
+        <div class="container mx-auto">
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="w-full max-w-2xl mx-auto">
+                <input type="hidden" name="access_key" value="d4cb0626-d548-405e-a942-7b848a16f8d8">
+
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-sm text-white font-bold mb-2" for="grid-full-name">
+                      Name
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-100 bg-opacity-50 text-black border border-black rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-indigo-200 transition-colors duration-200 ease-in-out shadow-md placeholder-black"
+                      id="grid-full-name" type="text" name="name" placeholder="Jane Doe">
+                  </div>
+                  <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-sm text-white font-bold mb-2" for="grid-phone">
+                      Phone No.
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-100 bg-opacity-50 text-black border border-black rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-indigo-200 transition-colors duration-200 ease-in-out shadow-md placeholder-black"
+                      id="grid-phone" type="text" name="telephone" placeholder="(555) 555-5555">
+                  </div>
+                  <div class="w-full md:w-1/3 px-3">
+                    <label class="block uppercase tracking-wide text-sm text-white font-bold mb-2" for="grid-email">
+                      Email Address
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-100 bg-opacity-50 text-black border border-black rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-indigo-200 transition-colors duration-200 ease-in-out shadow-md placeholder-black"
+                      id="grid-email" type="email" name="email" placeholder="jane.doe@example.com">
+                  </div>
+                </div>
+
+                <div class="w-full px-3 mb-6">
+                  <label class="block uppercase tracking-wide text-sm text-white font-bold mb-2" for="grid-details">
+                    Message
+                  </label>
+                  <textarea class="appearance-none block w-full bg-gray-100 bg-opacity-50 text-black border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-indigo-200 h-48 resize-none transition-colors duration-200 ease-in-out shadow-md placeholder-black"
+                    id="grid-details" name="message" placeholder="Your message..."></textarea>
+                </div>
+
+                <div class="w-full px-3">
+                  <button class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-colors duration-200 ease-in-out"
+                    type="submit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Join Me on This Ride Section -->
+      <section class="relative bg-gray-800 rounded-lg p-8 mt-16" style="background-color: rgb(41, 41, 41);">
+        <div class="container mx-auto py-12 text-center">
+          <h2 class="title-font sm:text-4xl text-3xl mb-12 font-bold text-white">Join Me on This Ride</h2>
+          <p class="leading-relaxed text-gray-300 mb-6">
+            Thank you for your support! Stay connected, informed, and enjoy the ride.
+          </p>
+          <p class="leading-relaxed text-gray-300 mb-6">
+            Follow me on social media, subscribe to updates, and download Go Extra Mile to start earning rewards today.
+          </p>
+          <p class="leading-relaxed text-gray-300 mb-12">
+            Let’s ride the future together.
+          </p>
+          <hr class="border-t border-white-600 mb-12">
+          <div class="flex justify-center items-center mb-6">
+            <a href="#" class="mx-2">
+              <img class="w-8 h-8" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="#" class="mx-2">
+              <img class="w-8 h-8" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="#" class="mx-2">
+              <img class="w-8 h-8" src="https://th.bing.com/th?id=OIP.AdzhkXtdEuGDv94QoKVmaAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Twitter">
+            </a>
+            <a href="#" class="mx-2">
+              <img class="w-8 h-8" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            </a>
+          </div>
+
+          <div class="text-left text-gray-500">
+            <p class="text-sm">&copy; 2024 UrbanRider</p>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+
+    <!-- Join Me on This Ride Section -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+</body>
+
+</html>
